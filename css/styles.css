@@ -323,12 +323,23 @@ margin-right: 40px;
 }
                 
 .customers-logo {
-    fill:#8E8F99;
+    display: block;
     width: 168px;
     height: 88px;
     padding: 16px 32px;
+}
+
+.customers-link {
+    fill: #8E8F99;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    display:block ;
+}
+
+.customers-link:focus,
+.customers-link:hover {
+    fill: var(--main-blue);
+    border-color: var(--main-blue);
 }
 
 .customers-logo:hover,
