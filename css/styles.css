@@ -299,6 +299,10 @@ margin-right: 40px;
     border-radius: 50%;
 }
 
+.social-list-link:active {
+    background-color: var(--background-active-order-service);
+}
+
  /* ============================CUSTOMERS ==================================*/
                 
 .customers-title {
